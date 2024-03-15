@@ -94,7 +94,8 @@ body {
     width: 1320px;
     z-index: 9;
     top: 65%;
-    left: 47%;
+    left: 50%;
+    margin-left: -67.5px;
     color: #fff;
     font-size: 40px;
     font-weight: 500;
