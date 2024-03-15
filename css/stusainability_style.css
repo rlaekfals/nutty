@@ -3,7 +3,7 @@
 
 @import url(https://db.onlinewebfonts.com/c/57f0d312017e3471c956900c601e683d?family=Cherolina);
 
-@import url('https://fonts.cdnfonts.com/css/stigfier');
+@font-face{font-family:'Stigfier';font-style:normal;font-weight:400;src:local('fonts/Stigfier.woff'),url(https://fonts.cdnfonts.com/s/108800/Stigfier.woff) format('woff')}
 
 html, body, div, p, ul, ol, li, dl, dt, dd, span, strong, table, th, td, em, form, input, textarea {
     margin: 0;
