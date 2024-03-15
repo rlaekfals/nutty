@@ -1,0 +1,370 @@
+@charset "utf-8";
+
+
+@import url(https://db.onlinewebfonts.com/c/57f0d312017e3471c956900c601e683d?family=Cherolina);
+
+@import url('https://fonts.cdnfonts.com/css/stigfier');
+
+html, body, div, p, ul, ol, li, dl, dt, dd, span, strong, table, th, td, em, form, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #39191D;
+}
+
+#wrap {
+    min-width: 1320px;
+}
+
+#top {
+    position: relative;
+    height: 536px;
+    overflow: hidden;
+}
+
+#banner {
+    position: absolute;
+    width: 1920px;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+
+#header {
+    position: absolute;
+    width: 1320px;
+    z-index: 9;
+    top: 30px;
+    left: 50%;
+    color: #fff;
+    margin-left: -660px;
+}
+
+.gnb_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb li {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.gnb_wrap h1 {
+    margin-right: 50px;
+}
+
+.login {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.login li {
+    margin-left: 15px;
+}
+
+#banner h1 {
+    position: absolute;
+    width: 1320px;
+    z-index: 9;
+    top: 65%;
+    left: 47%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+#section1 {
+    width: 1320px;
+    height: 900px;
+    margin: 150px auto;
+    text-align: center;
+    position: relative;
+}
+
+.section1_img p {
+    position: absolute;
+    top: 100px;
+    left: 13%;
+    font-family: 'Cherolina';
+    font-size: 200px;
+    line-height: 150px;
+    color: #D11F36;
+}
+
+.section1_title {
+    padding: 50px 0 30px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#section1 span {
+    color: #D11F36;
+}
+
+.section1_middle {
+    padding: 25px 0;
+}
+
+#section2 {
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.section2_title {
+    font-family: 'Stigfier';
+    font-size: 40px;
+    padding: 50px 0 50px;
+}
+
+.inner_section2 {
+    position: absolute;
+    width: 1320px;
+    top: 180px;
+    left: 50%;
+    margin-left: -660px;
+    z-index: 9;
+}
+
+.inner_section2 ul {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner_section2 ul li {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    width: 353px;
+    height: 500px;
+}
+
+.section2_img {
+    height: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.section2_text {
+    width: 268px;
+    margin: 80px auto;
+}
+
+.section2_text span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section2_text p {
+    padding-bottom: 10px;
+}
+
+.inner_section2 ul li:hover {
+    transform: scale(1.05);
+}
+
+#section3 {
+    width: 1320px;
+    height: 850px;
+    margin: 150px auto 0;
+    position: relative;
+}
+
+.section3_bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.section3_title {
+    position: absolute;
+    top: 470px;
+    left: 0;
+    font-family: 'Stigfier';
+    font-size: 100px;
+}
+
+.section3_text {
+    position: absolute;
+    top: 520px;
+    right: 100px;
+}
+
+.view a {
+    display: flex;
+    align-items: end;
+    position: absolute;
+    top: 600px;
+    left: 0px;
+}
+
+.view img {
+    padding-left: 20px;
+    padding-bottom: 3px;
+    width: 30px;
+    height: 8px;
+}
+
+#section4 {
+    width: 1320px;
+    margin: 0 auto;
+    height: 1090px;
+}
+
+.section4_ci {
+    font-size: 40px;
+    font-family: 'Stigfier';
+    text-align: center;
+    padding: 150px 0 50px;
+}
+
+.section4_ci span {
+    color: #fff;
+}
+
+.section4_title {
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+#section4 ul li {
+    padding-bottom: 80px;
+}
+
+.section4_wrap {
+    display: flex;
+}
+
+.section4_text {
+    width: 887px;
+}
+
+.left_wrap {
+    width: 351px;
+    padding-right: 80px;
+    color: #4D010B;
+}
+
+ul li:nth-child(1) .section4_wrap img {
+    height: 55px;
+}
+
+.small {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.kanit {
+    font-family: 'Kanit';
+    font-size: 27px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.notosans {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.font {
+    padding: 10px 0 20px;
+}
+
+#footer {
+    height: 375px;
+    margin: 0 auto;
+    background-color: #300006;
+    font-size: 13px;
+    color: #fff;
+}
+
+.inner_footer {
+    margin: 0 auto;
+    width: 1320px;
+    height: 247px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_link {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.footer_link li {
+    margin-right: 10px;
+}
+
+.footer_link li::before{
+    content: "";
+    display: inline-block;
+    width: 0.5px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 10px;
+    vertical-align: 0px;
+}
+.footer_link li:nth-child(1)::before{
+    display: none;
+}
+
+.footer_copyright {
+    display: flex;
+}
+
+.footer_copyright p {
+    padding-right: 30px;
+}
+
+.go_to_top {
+    text-align: center;
+    font-family: 'Stigfier';
+    font-size: 10px;
+}
+
+.sns a {
+    margin-left: 10px;
+}

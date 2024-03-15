@@ -1,0 +1,311 @@
+@charset "utf-8";
+
+
+@import url(https://db.onlinewebfonts.com/c/57f0d312017e3471c956900c601e683d?family=Cherolina);
+
+@font-face{font-family:'Stigfier';font-style:normal;font-weight:400;src:local('fonts/Stigfier.woff'),url(https://fonts.cdnfonts.com/s/108800/Stigfier.woff) format('woff')}
+
+html, body, div, p, ul, ol, li, dl, dt, dd, span, strong, table, th, td, em, form, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #39191D;
+}
+
+#wrap {
+    min-width: 1400px;
+}
+
+#top {
+    position: relative;
+    height: 536px;
+    overflow: hidden;
+}
+
+#banner {
+    position: absolute;
+    width: 1920px;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+
+#header {
+    position: absolute;
+    width: 1320px;
+    z-index: 9;
+    top: 30px;
+    left: 50%;
+    color: #fff;
+    margin-left: -660px;
+}
+
+.gnb_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb li {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.gnb_wrap h1 {
+    margin-right: 50px;
+}
+
+.login {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.login li {
+    margin-left: 15px;
+}
+
+#banner h1 {
+    position: absolute;
+    width: 1320px;
+    z-index: 9;
+    top: 65%;
+    left: 50%;
+    margin-left: -74px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+#container {
+    height: 940px;
+    margin: 0 auto;
+}
+
+.bg_wrap1 {
+    position: relative;
+    height: 940px;
+    overflow: hidden;
+}
+
+.bg {
+    height: 940px;
+    position: absolute;
+    width: 1920px;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+    margin-left: -960px;
+    opacity: 30%;
+}
+
+.bg_wrap2 {
+    width: 1320px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -660px;
+    z-index: -1;
+}
+
+.bg_wrap3 {
+    position: relative;
+    height: 940px;
+}
+
+.bg_1,
+.bg_2,
+.bg_3 {
+    position: absolute;
+    opacity: 20%;
+
+}
+
+.bg_1 {
+    width: 36%;
+    top: 25%;
+    left: -330px;
+    transform: rotate(-5deg);
+}
+
+.bg_2 {
+    bottom: -30px;
+    right: 30%;
+    opacity: 70%;
+    transform:scale(1.2);
+}
+
+.bg_3 {
+    top: 25%;
+    right: -320px;
+    transform: rotate(-5deg);
+}
+
+.inner_container {
+    width: 1320px;
+    position: absolute;
+    top: 685px;
+    left: 50%;
+    margin-left: -660px;
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 0 30px;
+}
+
+.title_eng {
+    font-size: 124px;
+    font-family: 'Cherolina';
+    color: #D11F36;
+    opacity: 60%;
+}
+
+.like {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    position: relative;
+}
+
+.like li {
+    padding: 0 15px;
+}
+
+.cover {
+    position: absolute;
+    top: 50px;
+    width: 297px;
+    height: 443px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: none;
+    box-sizing: border-box;
+    padding-top: 120px;
+}
+
+.cover span {
+    font-weight: 500;
+}
+
+.like li:hover .cover {
+    display: block;
+}
+
+.view {
+    display: flex;
+    align-items: end;
+    justify-content: center; 
+    padding-top: 30px;
+}
+
+.view img {
+    padding-left: 20px;
+    padding-bottom: 3px;
+    width: 30px;
+    height: 8px;
+}
+
+
+
+
+
+
+
+
+
+#footer {
+    height: 375px;
+    margin: 0 auto;
+    background-color: #300006;
+    font-size: 13px;
+    color: #fff;
+}
+
+.inner_footer {
+    margin: 0 auto;
+    width: 1320px;
+    height: 247px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_link {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.footer_link li {
+    margin-right: 10px;
+}
+
+.footer_link li::before{
+    content: "";
+    display: inline-block;
+    width: 0.5px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 10px;
+    vertical-align: 0px;
+}
+.footer_link li:nth-child(1)::before{
+    display: none;
+}
+
+.footer_copyright {
+    display: flex;
+}
+
+.footer_copyright p {
+    padding-right: 30px;
+}
+
+.go_to_top {
+    text-align: center;
+    font-family: 'Stigfier';
+    font-size: 10px;
+}
+
+.sns a {
+    margin-left: 10px;
+}

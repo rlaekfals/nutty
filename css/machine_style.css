@@ -1,0 +1,252 @@
+@charset "utf-8";
+
+
+@import url(https://db.onlinewebfonts.com/c/57f0d312017e3471c956900c601e683d?family=Cherolina);
+
+@font-face{font-family:'Stigfier';font-style:normal;font-weight:400;src:local('fonts/Stigfier.woff'),url(https://fonts.cdnfonts.com/s/108800/Stigfier.woff) format('woff')}
+
+html, body, div, p, ul, ol, li, dl, dt, dd, span, strong, table, th, td, em, form, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #39191D;
+}
+
+#wrap {
+    min-width: 1320px;
+}
+
+#top {
+    position: relative;
+    height: 536px;
+    overflow: hidden;
+}
+
+#banner {
+    position: absolute;
+    width: 1920px;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+
+#banner div {
+    position: absolute;
+    width: 1920px;
+    height: 536px;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+    z-index: 8;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#header {
+    position: absolute;
+    width: 1320px;
+    z-index: 9;
+    top: 30px;
+    left: 50%;
+    color: #fff;
+    margin-left: -660px;
+}
+
+.gnb_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb li {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.gnb_wrap h1 {
+    margin-right: 50px;
+}
+
+.login {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.login li {
+    margin-left: 15px;
+}
+
+#banner h1 {
+    position: absolute;
+    width: 1320px;
+    z-index: 9;
+    top: 65%;
+    left: 45.5%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+#container {
+    height: 1532px;
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.category {
+    padding: 150px 0 100px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.category li:hover {
+    color: #D11F36;
+}
+
+.menu {
+    width: 897px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    width: 310px;
+    padding-bottom: 150px;
+}
+
+.img_wrap {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.img_wrap img {
+    width: 310px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.menu li:hover .name {
+    color: #D11F36;
+}
+
+.price {
+    color: #D11F36;
+}
+
+
+
+
+
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.page li {
+    padding: 0 20px;
+}
+
+.page li:hover {
+    color: #D11F36;
+}
+
+
+#footer {
+    height: 375px;
+    margin: 0 auto;
+    background-color: #300006;
+    font-size: 13px;
+    color: #fff;
+}
+
+.inner_footer {
+    margin: 0 auto;
+    width: 1320px;
+    height: 247px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_link {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.footer_link li {
+    margin-right: 10px;
+}
+
+.footer_link li::before{
+    content: "";
+    display: inline-block;
+    width: 0.5px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 10px;
+    vertical-align: 0px;
+}
+.footer_link li:nth-child(1)::before{
+    display: none;
+}
+
+.footer_copyright {
+    display: flex;
+}
+
+.footer_copyright p {
+    padding-right: 30px;
+}
+
+.go_to_top {
+    text-align: center;
+    font-family: 'Stigfier';
+    font-size: 10px;
+}
+
+.sns a {
+    margin-left: 10px;
+}

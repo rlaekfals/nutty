@@ -1,0 +1,655 @@
+@charset "utf-8";
+
+
+@import url(https://db.onlinewebfonts.com/c/57f0d312017e3471c956900c601e683d?family=Cherolina);
+
+@font-face{font-family:'Stigfier';font-style:normal;font-weight:400;src:local('fonts/Stigfier.woff'),url(https://fonts.cdnfonts.com/s/108800/Stigfier.woff) format('woff')}
+
+html, body, div, p, ul, ol, li, dl, dt, dd, span, strong, table, th, td, em, form, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #39191D;
+}
+
+#wrap {
+    min-width: 1400px;
+}
+
+#top {
+    position: relative;
+    height: 1041px;
+    overflow: hidden;
+}
+
+#banner {
+    position: absolute;
+    width: 1920px;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+
+#header {
+    position: absolute;
+    width: 1320px;
+    z-index: 9;
+    top: 30px;
+    left: 50%;
+    color: #fff;
+    margin-left: -660px;
+}
+
+.gnb_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb li {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.gnb_wrap h1 {
+    margin-right: 50px;
+}
+
+.login {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.login li {
+    margin-left: 15px;
+}
+
+#banner{
+    overflow: hidden;
+}
+
+.banner1_text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -600px;
+    color: #fff;
+    font-family: 'Stigfier';
+    font-size: 102px;
+    line-height: 95px;
+    letter-spacing: -5px;
+    text-align: center;
+}
+
+.banner1_text span {
+    font-family: 'Cherolina';
+    font-size: 200px;
+    color: #D11F36;
+    letter-spacing: -10px;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 0;
+    right: 210px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transform: rotate(90deg);
+    z-index: 99;
+}
+
+.scroll p {
+    padding-right: 10px;
+
+}
+
+.scroll div {
+    width: 200px;
+    height: 1px;
+}
+
+.frame {
+    background-color: #D11F36;
+    animation-name: scroll_wrap;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll_wrap {
+    form {
+        width: 200px;
+        height: 1px;
+    }
+    to {
+        width: 0px;
+        height: 1px;
+    }
+}
+
+
+#section1 {
+    margin: 150px auto;
+    width: 1320px;
+    height: 1000px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.section1_img {
+    position: absolute;
+    top: 0;
+    right: 0; 
+}
+
+.section1_title {
+    font-family: 'Stigfier';
+    font-size: 120px;
+    line-height: 126px;
+    color: #D11F36;
+    position: absolute;
+    top: 460px;
+    left: 0;
+    letter-spacing: -3px;
+}
+
+.section1_title span {
+    font-size: 130px;
+}
+
+.section1_text {
+    position: absolute;
+    width: 460px;
+    top: 750px;
+    right: 70px;
+}
+
+.title1 {
+    font-family: 'Stigfier';
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.section1_text span {
+    font-weight: 500;
+}
+
+.view a {
+    display: flex;
+    align-items: end;
+}
+
+#section1 .view a {
+    position: absolute;
+    top: 1000px;
+    right: 0;
+
+}
+
+.view img {
+    padding-left: 20px;
+    padding-bottom: 3px;
+    width: 30px;
+    height: 8px;
+}
+
+#section2 {
+    margin: 0 auto;
+    /* width: 1920px; */
+    position: relative;
+    height: 668px;
+    overflow: hidden;
+}
+
+.gradient {
+    position: absolute;
+    width: 1920px;
+    height: 668px;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+    z-index: 1;
+    background: linear-gradient( rgba(0,0,0,0), #4D3111);
+    opacity: 40%;
+}
+
+.section2_wrap {
+    position: absolute;
+    width: 1920px;
+    height: 668px;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+
+.inner_section2 {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    width: 1320px;
+    margin-left: -660px;
+    color: #fff;
+    z-index: 99;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#section2 .view {
+    position: absolute;
+    top: 350px;
+    right: 0;
+}
+
+.section2_text .title2 {
+    font-family: 'Stigfier';
+    font-size: 25px;
+}
+
+.section2_title {
+    padding: 30px 0;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.section2_text {
+    font-size: 17px;
+}
+
+#section3 {
+    height: 1040px;
+    margin: 0 auto;
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+
+.inner_section3 {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 37px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.more {
+    text-decoration: #8B7777 0.5px underline;
+}
+
+.title3 {
+    font-family: 'Stigfier';
+    font-size: 40px;
+    line-height: 42px;
+}
+
+.slider_wrap {
+    padding-top: 92px;
+    border-top: 0.5px solid #8B7777;
+    overflow: hidden;
+}
+
+.regular {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.inner_menu {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.inner_menu img {
+    width: 214px;
+    height: 210px;
+    padding-right: 35px;
+}
+
+.menu_text {
+    width: 243px;
+    height: 340px;
+}
+
+.menu_name {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.menu_eng_name {
+    font-size: 22px;
+    font-family: 'Stigfier';
+    padding: 10px 0 35px;
+}
+
+.menu_p {
+    height: 138px;
+}
+
+.menu_text .price {
+    font-size: 17px;
+    color: #D11F36;
+    padding: 0 0 75px;
+}
+
+.buy {
+    text-decoration: #8B7777 0.5px underline;
+}
+
+.inner_menu img:hover {
+    transform: scale(1.1);
+}
+
+#section4_wrap{
+    overflow: hidden;
+    position: relative;
+    height: 764px;
+}
+
+#section4 {
+    height: 764px;
+    margin: 0 auto;
+    width: 1920px;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    top: 0;
+    
+}
+.section4_inner{
+    position: relative;
+}
+
+.section4_bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.opacity {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 1920px;
+    height: 457px;
+    background-color: #000;
+    opacity: 25%;
+}
+
+.section4_wrap {
+    display: flex;
+    margin: 0 auto;
+    width: 1320px;
+}
+
+.section4_wrap img {
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5) ;
+    margin: 0 55px 0 150px;
+}
+
+.section4_title {
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.section4_title span {
+    font-family: 'Stigfier';
+    font-size: 30px;
+}
+
+.section4_text .price {
+    font-weight: 500;
+    font-size: 17px;
+    padding: 35px 0 25px;
+}
+
+#section5_wrap{
+    overflow: hidden;
+    position: relative;
+    height: 1100px;
+}
+
+#section5 {
+    width: 1920px;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    top: 0;
+   
+}
+.section5_inner{
+     position: relative;
+}
+
+.section5_bg1 {
+    position: absolute;
+    top: 250px;
+    left: -50px;
+    z-index: -1;
+    opacity: 30%;
+    width: 400px;
+}
+
+.section5_bg2 {
+    position: absolute;
+    top: 500px;
+    right: 0;
+    z-index: -1;
+    transform: rotate(45deg);
+    opacity: 30%;
+    width: 300px;
+}
+
+.inner_section5 {
+    width: 1320px;
+    margin: 150px auto;
+    position: relative;
+}
+
+.section5_title {
+    font-family: 'Stigfier';
+    font-size: 40px;
+    line-height: 42px;
+    padding-bottom: 90px;
+}
+
+.inner_section5 ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.section5_ul {
+    position: relative;
+}
+
+.news_title {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px 0 10px;
+}
+
+#section5 .view a {
+    position: absolute;
+    top: 800px;
+    right: 0;
+}
+
+.cover div {
+    background-color: rgba(0, 0, 0, 0.4);;
+    width: 309px;
+    height: 386px;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+
+.cover div img {
+    width: 9.4px;
+    height: 9.4px;
+    padding-right: 5px;
+}
+
+.inner_section5 ul li:hover .cover div {
+    display: block;
+}
+
+.inner_section5 ul li:hover .news_title {
+    color: #D11F36;
+}
+
+.section5_view {
+    display: flex;
+    padding-top: 170px;
+    box-sizing: border-box;
+}
+
+#section6 {
+    position: relative;
+    color: #fff;
+    margin: 0 auto;  
+    height: 843px;
+    overflow: hidden;
+}
+
+.section6_bg {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 0;
+    margin-left: -960px;
+}
+
+.section6_cover {
+    position: absolute;
+    width: 1920px;
+    height: 843px;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.inner_section6 {
+    position: absolute;
+    width: 1920px;
+    margin-left: -960px;
+    z-index: 99;
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0,0,0,0.2);
+    font-weight: 400;
+}
+
+.section6_title {
+    font-size: 33px;
+}
+
+.section6_text {
+    padding: 30px 0 120px;
+}
+
+#section6 .view a {
+    justify-content: center;
+}
+
+#footer {
+    height: 375px;
+    margin: 0 auto;
+    background-color: #300006;
+    font-size: 13px;
+    color: #fff;
+}
+
+.inner_footer {
+    margin: 0 auto;
+    width: 1320px;
+    height: 247px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_link {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.footer_link li {
+    margin-right: 10px;
+}
+
+.footer_link li::before{
+    content: "";
+    display: inline-block;
+    width: 0.5px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 10px;
+    vertical-align: 0px;
+}
+.footer_link li:nth-child(1)::before{
+    display: none;
+}
+
+.footer_copyright {
+    display: flex;
+}
+
+.footer_copyright p {
+    padding-right: 30px;
+}
+
+.go_to_top {
+    text-align: center;
+    font-family: 'Stigfier';
+    font-size: 10px;
+}
+
+.sns a {
+    margin-left: 10px;
+}
